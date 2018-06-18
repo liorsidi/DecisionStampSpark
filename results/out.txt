@@ -1,0 +1,66 @@
+info gain on data cars
+[Stage 0:>                                                          (0 + 0) / 2]
+[Stage 0:>                                                          (0 + 2) / 2]
+                                                                                
+entropy before split: 1.20574097001
+feature selected to split safety
+top 1 feature infogain: safety - 1.04848153444
+top 2 feature infogain: persons - 1.04139463557
+top 3 feature infogain: buying - 1.02085896987
+top 4 feature infogain: maint - 1.01706813283
+top 5 feature infogain: lug_boot - 1.00978549855
+top 6 feature infogain: doors - 1.00553176111
+info gain on data mushrooms
+[Stage 2:>                                                          (0 + 0) / 5]18/04/24 16:37:33 WARN scheduler.TaskSetManager: Stage 2 contains a task of very large size (155 KB). The maximum recommended task size is 100 KB.
+[Stage 2:>                                                          (0 + 5) / 5]
+[Stage 2:===========>                                               (1 + 4) / 5]
+[Stage 2:===============================================>           (4 + 1) / 5]
+                                                                                
+entropy before split: 0.999067896872
+feature selected to split f5
+top 1 feature infogain: f5 - 0.994840945987
+top 2 feature infogain: f20 - 0.975505943273
+top 3 feature infogain: f9 - 0.972609243534
+top 4 feature infogain: f19 - 0.96811124296
+top 5 feature infogain: f12 - 0.966597792434
+top 6 feature infogain: f13 - 0.966014559442
+top 7 feature infogain: f14 - 0.965194136717
+top 8 feature infogain: f15 - 0.964629154584
+top 9 feature infogain: f8 - 0.964117282249
+top 10 feature infogain: f21 - 0.962835629699
+info gain on data scale
+[Stage 4:===================================>                       (3 + 2) / 5]
+                                                                                
+entropy before split: 1.31811624644
+feature selected to split Right-Weight
+top 1 feature infogain: Right-Weight - 1.02242576382
+top 2 feature infogain: Right-Distance - 1.02242576382
+top 3 feature infogain: Left-Weight - 1.02242576382
+top 4 feature infogain: Left-Distance - 1.02242576382
+info gain on data specs
+[Stage 6:===============================================>           (4 + 1) / 5]
+                                                                                
+entropy before split: 1.0
+feature selected to split F13
+top 1 feature infogain: F13 - 0.962292350112
+top 2 feature infogain: F16 - 0.960446241275
+top 3 feature infogain: F8 - 0.95989377975
+top 4 feature infogain: F17 - 0.95945597937
+top 5 feature infogain: F18 - 0.958154154171
+top 6 feature infogain: F21 - 0.958142876923
+top 7 feature infogain: F22 - 0.958005921158
+top 8 feature infogain: F11 - 0.957950193707
+top 9 feature infogain: F7 - 0.957874454713
+top 10 feature infogain: F12 - 0.9573763137
+info gain on data tictac
+entropy before split: 0.930953986251
+feature selected to split mid_middle
+top 1 feature infogain: mid_middle - 0.837202065804
+top 2 feature infogain: top_right - 0.829020951391
+top 3 feature infogain: top_left - 0.829020951391
+top 4 feature infogain: bottom_right - 0.829020951391
+top 5 feature infogain: bottom_left - 0.829020951391
+top 6 feature infogain: top_middle - 0.82829300363
+top 7 feature infogain: mid_right - 0.82829300363
+top 8 feature infogain: mid_left - 0.82829300363
+top 9 feature infogain: bottom_middle - 0.82829300363
